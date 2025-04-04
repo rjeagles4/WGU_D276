@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Career Goals</title>
+</head>
+
+	<link rel="stylesheet" type="text/css" href="C:\HTML\Style.css">
+
+<body>
+	<main>
+
+		<h1>Career Goals</h1>
+
+		<hr>
+
+		<h2>In case words are difficult for you, I compiled media that will show you who I am: </h2>	
+
+		<section class="media-container">
+			<img src="Mr_handsome.png" alt="Mr Handsome" width="300" height="300">
+
+			<video width="360" height="300" controls>
+				<source src="Eye_of_tiger.mp4" type="video/mp4">
+				Your browser does not support this video.
+			</video>
+		</section>
+
+		<section class="media-container">
+			<audio controls>
+				<source src="Hard_in_Da_Paint.mp3" type="audio/mpeg">
+				Your browser does not support this audio.
+			</audio>
+		</section>
+		<section class="media-container">
+			<p id="text"> Flame, Waka Flocka. Hard in Da Paint. Lex Luger, 13 Aug. 2009.</p>
+		</section>
+
+
+		<hr>
+
+		<form action="submit_form.php" method="post">
+			<label for="FirstName">First Name:</label>
+			<input type="text" id="FirstName" name="FirstName" placeholder="First Name">
+
+			<label for="LastName">Last Name:</label>
+			<input type="text" id="LastName" name="LastName" placeholder="Last Name">
+
+			<label for="CompanyName">Company Name:</label>
+			<input type="text" id="CompanyName" name="CompanyName" placeholder="Company Name">
+
+			<br>
+			<br>
+
+			<label for="Email">Email:</label>
+			<input type="Email" id="Email" name="Email" placeholder="Email">
+
+			<label for="Phone">Phone Number:</label>
+			<input type="Tel" id="phone" name="Phone Number" placeholder="Phone Number">
+
+			<label for="Message">Message:</label>
+			<input type="Message" id="Message" name="Message" placeholder="Optional">
+
+			<br>
+			<br>
+
+			<p>Best Contact Time:</p>
+			<input type="radio" id="morning" name="contact_time" value="morning" required>
+			<label for="Message">Morning</label><br>
+
+			<input type="radio" id="afternoon" name="contact_time" value="afternoon" required>
+			<label for="Message">Afternoon</label><br>
+
+			<input type="radio" id="Evening" name="contact_time" value="Evening" required>
+			<label for="Message">Evening</label><br>
+
+			<br>
+
+			<label for="contactMethod">Best Contact Method:</label>	
+			<select id="ContactMethod" name="Contact_Method" required>
+				<option value="">Select an option</option>	
+				<option value="phone">Phone</option>
+				<option value="email">Email</option>
+				<option value="text">Text</option>
+			</select>
+
+			<button type="Send">Contact Me</button>
+
+		</form>
+
+	</main>
+
+<footer>
+	<p><strong><mark>More about me:</mark></strong></p>
+	<li><a href="C:\HTML\Resume.html">Resume</a></li>
+	<li><a href="C:\HTML\Cover letter.html">Cover Letter</a></li>
+	<p>Current Date and Time is <span id="date-time"></span>.</p>
+</footer>
+
+</body>
+
+<script>
+var dt = new Date();
+document.getElementById("date-time").innerHTML=dt;
+</script>
+</footer>
+</html>

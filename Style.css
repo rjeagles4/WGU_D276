@@ -1,0 +1,93 @@
+h1{
+
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 2px;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	background-color: #ff9999;
+	
+}
+/* Element Selectors^^^ */
+
+
+footer a {
+	color: #007bff;	
+	text-decoration: none;
+	font-weight:bold;
+}
+
+footer p {
+	text-align: Center;
+}
+
+/* Descendant Selectors^^^ */
+
+
+.center {
+	text-align: center;
+	
+}
+
+.media-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+/* Class Selectors^^^ */
+
+
+#center {
+	list-style-position: inside;
+	padding: 0;
+	text-align: center;
+}
+
+#essay {
+	font-size: 15px;
+	line-height: 2;
+
+}
+
+#tab {
+	text-indent: 30px;
+
+}
+
+#text {
+	font-size: 10px;
+}
+
+
+/* ID Selectors^^^ */
+
+a:hover {
+	color: white;
+}
+
+/* Pseudo-Class Selectors^^^ */
+
+* {
+	font-family: Arial, sans-serif;
+}
+
+/* Universal Selectors^^^ */
+
+
